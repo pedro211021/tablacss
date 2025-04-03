@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla CSS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#css">CSS</a></li>
+                <li><a href="#javascript">JavaScript</a></li>
+                <li><a href="#tabla-css">Tabla de Atributos CSS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección CSS -->
+    <section id="css">
+        <h2>¿Qué es CSS?</h2>
+        <p>Las siglas CSS (Cascading Style Sheets) significan «Hojas de estilo en cascada» y parten de un concepto simple pero muy potente: aplicar estilos (colores, formas, márgenes, etc...) a uno o varios documentos (generalmente documentos HTML, páginas webs) de forma automática y masiva.
+
+            Se le denomina estilos en cascada porque se lee, procesa y aplica el código desde arriba hacia abajo (siguiendo patrones como herencia o cascada que trataremos más adelante) y en el caso de existir ambigüedad (código que se contradice), se siguen una serie de normas para resolver dicha ambigüedad.</p>
+        <a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank">
+            <img src="logo.css.png.png" alt="Logo CSS">
+        </a>
+    </section>
+
+    <!-- Sección JavaScript -->
+    <section id="javascript">
+        <h2>¿Qué es JavaScript?</h2>
+        <p>JavaScript es un lenguaje de programación o de secuencias de comandos que te permite implementar funciones complejas en páginas web, cada vez que una página web hace algo más que sentarse allí y mostrar información estática para que la veas, muestra oportunas actualizaciones de contenido, mapas interactivos, animación de Gráficos 2D/3D, desplazamiento de máquinas reproductoras de vídeo, etc., puedes apostar que probablemente JavaScript está involucrado. Es la tercera capa del pastel de las tecnologías web estándar, dos de las cuales (HTML y CSS) hemos cubierto con mucho más detalle en otras partes del Área de aprendizaje.</p>
+        <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank">
+            <img src="logo.java.png" alt="Logo JavaScript">
+        </a>
+    </section>
+
+    <!-- Sección Tabla de Atributos CSS -->
+    <section id="tabla-css">
+        <h2>Tabla de Atributos CSS</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Atributo</th>
+                    <th>Descripción</th>
+                    <th>Valores Posibles</th>
+                    <th>Ejemplo de Uso</th>
+                    <th>Imagen Representativa</th>
+                    <th>Fuente</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>font-size</td>
+                    <td>Define el tamaño de la fuente del texto.</td>
+                    <td>12px, 16px, 2em, etc.</td>
+                    <td>p { font-size: 16px; }</td>
+                    <td><img src="forz.png" alt="Ejemplo de font-size"></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/font-size" target="_blank">MDN</a></td>
+                </tr>
+                <tr>
+                    <td>border-radius</td>
+                    <td>Redondea las esquinas de un elemento.</td>
+                    <td>10px, 50%, 1em, etc.</td>
+                    <td>div { border-radius: 10px; }</td>
+                    <td><img src="border.png" alt="Ejemplo de border-radius"></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/border-radius" target="_blank">MDN</a></td>
+                </tr>
+                <tr>
+                    <td>display</td>
+                    <td>Define cómo se muestra un elemento.</td>
+                    <td>block, inline, flex, grid, etc.</td>
+                    <td>div { display: flex; }</td>
+                    <td><img src="display.png" alt="Ejemplo de display"></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/display" target="_blank">MDN</a></td>
+                </tr>
+                <tr>
+                    <td>flexbox (display: flex)</td>
+                    <td>Un modelo de layout que permite distribuir elementos en un contenedor.</td>
+                    <td>flex-start, flex-end, center, etc.</td>
+                    <td>div { display: flex; justify-content: center; }</td>
+                    <td><img src="flex-wrap-flexbox.png" alt="Ejemplo de flexbox"></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/flex" target="_blank">MDN</a></td>
+                </tr>
+                <tr>
+                    <td>position</td>
+                    <td>Define el tipo de posicionamiento de un elemento.</td>
+                    <td>static, relative, absolute, fixed, sticky</td>
+                    <td>div { position: absolute; top: 0; }</td>
+                    <td><img src="position.png" alt="Ejemplo de position"></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/position" target="_blank">MDN</a></td>
+                </tr>
+                <tr>
+                    <td>box-shadow</td>
+                    <td>Aplica sombra a un elemento.</td>
+                    <td>10px 10px 15px rgba(0,0,0,0.3)</td>
+                    <td>div { box-shadow: 10px 10px 15px rgba(0,0,0,0.3); }</td>
+                    <td><img src="box.png" alt="Ejemplo de box-shadow"></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/box-shadow" target="_blank">MDN</a></td>
+                </tr>
+                <tr>
+                    <td>overflow</td>
+                    <td>Controla qué ocurre si el contenido de un elemento es demasiado grande.</td>
+                    <td>visible, hidden, scroll, auto</td>
+                    <td>div { overflow: hidden; }</td>
+                    <td><img src="overflow.png" alt="Ejemplo de overflow"></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/overflow" target="_blank">MDN</a></td>
+                </tr>
+                <tr>
+                    <td>z-index</td>
+                    <td>Define el orden de apilamiento de los elementos.</td>
+                    <td>número entero (positivo, negativo o 0)</td>
+                    <td>div { z-index: 10; }</td>
+                    <td><img src="z.index.png" alt="Ejemplo de z-index"></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/z-index" target="_blank">MDN</a></td>
+                </tr>
+                <tr>
+                    <td>opacity</td>
+                    <td>Define la transparencia de un elemento.</td>
+                    <td>0 (completamente transparente) a 1 (completamente opaco)</td>
+                    <td>div { opacity: 0.5; }</td>
+                    <td><img src="opacity.png" alt="Ejemplo de opacity"></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/opacity" target="_blank">MDN</a></td>
+                </tr>
+                <tr>
+                    <td>margin</td>
+                    <td>Define el espacio exterior de un elemento.</td>
+                    <td>10px, 2em, auto, etc.</td>
+                    <td>div { margin: 20px; }</td>
+                    <td><img src="margin.png" alt="Ejemplo de margin"></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/margin" target="_blank">MDN</a></td>
+                </tr>
+                <tr>
+                    <td>padding</td>
+                    <td>Define el espacio interior de un elemento.</td>
+                    <td>10px, 2em, auto, etc.</td>
+                    <td>div { padding: 10px; }</td>
+                    <td><img src="padding.png" alt="Ejemplo de padding"></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/padding" target="_blank">MDN</a></td>
+                </tr>
+                 <tr>
+                    <td>width</td>
+                    <td>Define el ancho de un elemento.</td>
+                    <td>100px, 50%, 10em, etc.</td>
+                    <td>div { width: 100px; }</td>
+                    <td><img src="width.png" alt="Ejemplo de width"></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/width" target="_blank">MDN</a></td>
+                </tr>
+                <tr>
+                    <td>height</td>
+                    <td>Define la altura de un elemento.</td>
+                    <td>100px, 50%, 10em, etc.</td>
+                    <td>div { height: 200px; }</td>
+                    <td><img src="height.png" alt="Ejemplo de height"></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/height" target="_blank">MDN</a></td>
+                </tr>
+                <tr>
+                    <td>background-color</td>
+                    <td>Define el color de fondo de un elemento.</td>
+                    <td>red, #ff0000, rgba(255,0,0,0.5), etc.</td>
+                    <td>div { background-color: #ff0000; }</td>
+                    <td><img src="background.png" alt="Ejemplo de background-color"></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/background-color" target="_blank">MDN</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>
